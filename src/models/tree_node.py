@@ -1,19 +1,20 @@
-
-
 class TreeNode:
-    def __init__(self,key,value,parent):
-        self.key=key
-        self.value=value
-        self.parent=parent
-        self.children=[]
+    def __init__(self, key, value, parent=None):
+        self.key = key
+        self.value = value
+        self.parent = parent
+        self.children = []
 
-    def addChild(self,child):
+    def addChild(self, child):
         self.children.append(child)
 
-    def child(self,row):
-        child=self.children[row]
-        return child
+    def child(self, row):
+        return self.children[row]
 
     def childCount(self):
-        count=len(self.children)
-        return count    
+        return len(self.children)
+
+    # --- ADD THIS METHOD ---
+    def setValue(self, value):
+        """Updates the node's stored value."""
+        self.value = value
