@@ -34,7 +34,7 @@ class TreeModel(QAbstractItemModel):
                 "value":"Room C",
                 "properties":{
                     "Width": 42,
-                    "Height": 90,
+                    "Height": 60,
                     "Temperature": 78
                 }
             
