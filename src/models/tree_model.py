@@ -28,6 +28,16 @@ class TreeModel(QAbstractItemModel):
                     "Temperature": 55
                     }
 
+            },
+            {
+                "key":"room3",
+                "value":"Room C",
+                "properties":{
+                    "Width": 42,
+                    "Height": 90,
+                    "Temperature": 78
+                }
+            
             }
         ]
 
