@@ -8,7 +8,7 @@
 
 ## Create virtual environmnet
 ```bash
-sys_python -m venv .venv
+python -m venv .venv
 ```
 
 ## Activate virtial environment
