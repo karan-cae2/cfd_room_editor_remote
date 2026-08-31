@@ -30,7 +30,7 @@ pip install -r requirements.txt
 1. Create build folder and open terminal in that folder.
 1. Cmake build
 ```bash
-cmake .. -G "MinGW Makefiles"
+cmake .. -G "MSYS Makefiles"
 ```
 1. Make build
 ```bash
